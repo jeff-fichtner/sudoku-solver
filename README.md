@@ -25,10 +25,6 @@ Failing to follow the following restrictions will result in an invalid submissio
 
 To accomplish this, you will be writing methods that accept arguments as inputs and return useful values representing their work. You should be writing many methods, and using them together to build up your solver.
 
-## Testing
-Good news: you will be creating many small methods, and small methods are easier to test.
-
-The number of tests you write is completely up to you. Testing is for _you_, and will help you develop code. You must balance testing with the need to write code and make progress on the solution, but remember that being able to easily run tests that prove your code is working correctly can help you move faster.
 
 ## Releases
 
@@ -75,6 +71,3 @@ Puzzles 6 - 10 can be solved using logic alone but require more than just identi
 
 ### Release 2:  Educated Guessing
 Puzzles 11 - 15 can be solved by making informed guesses about the values of unsolved squares and then trying to solve the puzzles based on those guessed values.  Guessing should be started once your solving code gets stuck.  In other words, solve as many squares as possible using logic and then start guessing.
-
-## Conclusion
-Writing a Sudoku solver presents a lot of problems:  identifying the logic involved in the game itself, translating that logic to code, manipulating data structures, etc.  It provides a nice comprehensive challenge, summing the skills that we've developed to this point at Dev Bootcamp.
