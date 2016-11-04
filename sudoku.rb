@@ -4,6 +4,7 @@
 # your solver has tried to solve it.
 # How you represent your board is up to you!
 def solve(board_string)
+	string_to_board(board_string)
 end
 
 # Returns a boolean indicating whether
@@ -13,10 +14,34 @@ end
 def solved?(board)
 end
 
-# Takes in a board in some form and
-# returns a _String_ that's well formatted
-# for output to the screen. No `puts` here!
-# The input board will be in whatever
-# form `solve` returns.
+
+
+
+
+
+# -----------------------------------
+# DISPLAY
+
+# Takes in solved board array
+# Returns string to print
 def pretty_board(board)
+	output = "\n"
+
+	board.each do |row|
+		row.each do |box|
+			output << "  " + box
+		end
+		output << "\n"
+	end
+
+	output << "\n"
+end
+
+# Takes the original board string
+# Converts to board array
+# Returns board
+def string_to_board(board_string)
+	board = []
+	board_string.chars.each_slice(9) { |row| board << row }
+	board
 end
