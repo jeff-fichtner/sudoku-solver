@@ -1,3 +1,5 @@
+#Sudoku Solver
+
 A brute-force iterative sudoku solver.
 
 To run in a terminal, load "ruby runner.rb"
